@@ -5,13 +5,8 @@
         _Smoothness("Smoothness", Range(0,1)) = 0.5
     }
 
-
     SubShader
-    { 
-        
-        //Tags { "RenderType"="Opaque" }
-        //LOD 200
-
+    {
         CGPROGRAM
         // Physically based Standard lighting model, and enable shadows on all light types
         #pragma surface ConfigureSurface Standard fullforwardshadows
@@ -20,12 +15,13 @@
         struct Input {
             float3 worldPos;
         };
-
+        
+        float _Smoothness;
         void ConfigureSurface(Input input, inout SurfaceOutputStandard surface)
         {
-            surface.Albedo = input.worldPos * 0.5 + 0.5;
+            surface.Albedo = saturate(input.worldPos * 0.5 + 0.5);
             surface.Smoothness = _Smoothness;
-
+            surface.Albedo.rg = saturate(input.worldPos.xy * 0.5 + 0.5);
         }
 
         ENDCG
