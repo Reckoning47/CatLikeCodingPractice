@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 
-public class FrameRateCounter : MonoBehaviour
+public class FPSCounter : MonoBehaviour
 {
 
 	[SerializeField]
