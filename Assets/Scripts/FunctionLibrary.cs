@@ -68,4 +68,15 @@ public static class FunctionLibrary
 	{
 		return functions[(int) name];
 	}
+	public static FunctionName GetNextFunctionName(FunctionName name)
+	{
+		if (name < FunctionName.Torus)
+		{
+			return name + 1;
+		}
+		else
+		{
+			return FunctionName.Wave;
+		}
+	}
 }
