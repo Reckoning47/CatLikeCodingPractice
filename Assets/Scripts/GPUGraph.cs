@@ -3,7 +3,7 @@
 public class GPUGraph : MonoBehaviour
 {
 
-	const int maxResolution = 1000;
+	const int maxResolution = 10000;
 
 	static readonly int
 		positionsId = Shader.PropertyToID("_Positions"),
