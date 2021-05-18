@@ -1,5 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Unity.Burst;
+using Unity.Collections;
+using Unity.Jobs;
 using UnityEngine;
 
 public class Fractal : MonoBehaviour
@@ -14,8 +15,8 @@ public class Fractal : MonoBehaviour
 	[SerializeField]
 	Material material = default;
 
-	FractalPart[][] parts;
-	Matrix4x4[][] matrices;
+	NativeArray<FractalPart>[] parts;
+	NativeArray<Matrix4x4>[] matrices;
 	ComputeBuffer[] matricesBuffers;
 
 	static readonly int matricesId = Shader.PropertyToID("_Matrices");
@@ -44,14 +45,14 @@ public class Fractal : MonoBehaviour
 
 	void OnEnable()
 	{
-		parts = new FractalPart[depth][];
-		matrices = new Matrix4x4[depth][];
+		parts = new NativeArray<FractalPart>[depth];
+		matrices = new NativeArray<Matrix4x4>[depth];
 		matricesBuffers = new ComputeBuffer[depth];
 		int stride = 16 * 4;
 		for (int i = 0, length = 1; i < parts.Length; i++, length *= 5)
 		{
-			parts[i] = new FractalPart[length];
-			matrices[i] = new Matrix4x4[length]; 
+			parts[i] = new NativeArray<FractalPart>(length, Allocator.Persistent);
+			matrices[i] = new NativeArray<Matrix4x4>(length, Allocator.Persistent);
 			matricesBuffers[i] = new ComputeBuffer(length, stride);
 		}
 
@@ -129,6 +130,8 @@ public class Fractal : MonoBehaviour
 				);
 			}
 		}
+
+		// send data from CPU to GPU
 		for (int i = 0; i < matricesBuffers.Length; i++)
 		{
 			matricesBuffers[i].SetData(matrices[i]);

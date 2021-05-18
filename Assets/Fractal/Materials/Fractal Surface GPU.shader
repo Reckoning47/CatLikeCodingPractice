@@ -13,7 +13,7 @@
 
 			#pragma target 4.5
 
-			#include "FractalGPU.hlsl"
+			#include "../Materials/FractalGPU.hlsl"
 
 			struct Input {
 				float3 worldPos;
