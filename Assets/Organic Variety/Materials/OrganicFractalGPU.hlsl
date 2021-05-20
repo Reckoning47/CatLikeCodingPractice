@@ -11,14 +11,11 @@ void ConfigureProcedural() {
 	unity_ObjectToWorld._m30_m31_m32_m33 = float4(0.0, 0.0, 0.0, 1.0);
 #endif
 }
-
-float4 _BaseColor;
-
 float4 GetFractalColor() {
 #if defined(UNITY_PROCEDURAL_INSTANCING_ENABLED)
 	return (unity_InstanceID % 5.0) / 4.0;
 #else
-	return _BaseColor;
+	return float4(.5f, .5f, .5f,.5f);
 #endif
 }
 

@@ -554,3 +554,852 @@ Received Import Request.
 Start importing Assets/Fractal/Materials/NewComputeShader.compute using Guid(4f54cc08a3eabe14a91db9ddb5005daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bb5570e0154b11379a3f03cda963c5') in 0.001223 seconds
   Import took 0.004052 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 233.703726 seconds.
+  path: Assets/Organic Variety
+  artifactKey: Guid(99793da36d795784eaf4e0e08e4fece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety using Guid(99793da36d795784eaf4e0e08e4fece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af78c75aa84c236ecaf159c6bbdc633') in 0.000987 seconds
+  Import took 0.003873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.296089 seconds.
+  path: Assets/Organic Variety/Scripts/TestFPS.cs
+  artifactKey: Guid(4cea2ed56f120184f8e23d22d936b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/TestFPS.cs using Guid(4cea2ed56f120184f8e23d22d936b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3057e45da2a0e69c243ce2a8b729398a') in 0.003496 seconds
+  Import took 0.006581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.861844 seconds.
+  path: Assets/Organic Variety/Scripts/FrameRateCounter.cs
+  artifactKey: Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/FrameRateCounter.cs using Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b690a953789b3c5f26eafcc9debb82') in 0.001038 seconds
+  Import took 0.004047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001313 seconds.
+  path: Assets/Organic Variety/Scripts/FrameRateCounter.cs
+  artifactKey: Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/FrameRateCounter.cs using Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b690a953789b3c5f26eafcc9debb82') in 0.001030 seconds
+  Import took 0.003753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534282 seconds.
+  path: Assets/Organic Variety/Scripts/Fractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/Fractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a79b7c40e58f6b54ac01fdc01fb92b') in 0.001166 seconds
+  Import took 0.004318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019407 seconds.
+  path: Assets/Organic Variety/Scripts/Fractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/Fractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a79b7c40e58f6b54ac01fdc01fb92b') in 0.001098 seconds
+  Import took 0.004117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.757440 seconds.
+  path: Assets/Organic Variety/Scripts/Organic_Fractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/Organic_Fractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed57be965197d3f354f06c585975228e') in 0.000981 seconds
+  Import took 0.003875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.902596 seconds.
+  path: Assets/Organic Variety/Scripts/Organic_FrameRateCounter.cs
+  artifactKey: Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/Organic_FrameRateCounter.cs using Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3468f20ce436061be91b8474f63daa') in 0.002729 seconds
+  Import took 0.005708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.831548 seconds.
+  path: Assets/Organic Variety/Scripts/Organic_Fractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/Organic_Fractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f611cb7dbed78535fdbbe293196f972e') in 0.001085 seconds
+  Import took 0.003966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.787544 seconds.
+  path: Assets/Organic Variety/Scripts/OrganicFractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/OrganicFractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7c1a051300baaa9f179f870ae4e479') in 0.000997 seconds
+  Import took 0.003970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.577384 seconds.
+  path: Assets/Organic Variety/Scripts/OrganicFrameRateCounter.cs
+  artifactKey: Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/OrganicFrameRateCounter.cs using Guid(f679188869bf56c49a5dd1c0f5d25600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2552dd06054acfe0ffda304eb5a89bfa') in 0.001000 seconds
+  Import took 0.003938 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.6 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 2.148200 ms (FindLiveObjects: 0.247100 ms CreateObjectMapping: 0.122800 ms MarkObjects: 1.497800 ms  DeleteObjects: 0.279500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2992.
+Total: 3.038900 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.321600 ms MarkObjects: 1.935400 ms  DeleteObjects: 0.368700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2994.
+Total: 2.279100 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.628000 ms  DeleteObjects: 0.329200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1184.942264 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dedcdb12275efaae38ec743504f8161') in 0.011905 seconds
+  Import took 0.015560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.526827 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436311992a10a72c9d9717135136810') in 0.002629 seconds
+  Import took 0.005942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001753 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436311992a10a72c9d9717135136810') in 0.002710 seconds
+  Import took 0.005986 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 2.774200 ms (FindLiveObjects: 0.377500 ms CreateObjectMapping: 0.091900 ms MarkObjects: 1.975000 ms  DeleteObjects: 0.327900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.796285 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37ae5311991806658ef6aff519a3a2f') in 0.011280 seconds
+  Import took 0.014787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007157 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37ae5311991806658ef6aff519a3a2f') in 0.001993 seconds
+  Import took 0.004972 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2998.
+Total: 2.395600 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.118700 ms MarkObjects: 1.627400 ms  DeleteObjects: 0.338800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.364011 seconds.
+  path: Assets/Organic Variety/Scripts/OrganicFractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/OrganicFractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ce5bca670af83e91d78f95a822440f') in 0.003852 seconds
+  Import took 0.006973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017066 seconds.
+  path: Assets/Organic Variety/Scripts/OrganicFractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/OrganicFractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ce5bca670af83e91d78f95a822440f') in 0.001185 seconds
+  Import took 0.004109 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.6 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3000.
+Total: 2.510200 ms (FindLiveObjects: 0.242200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 1.812600 ms  DeleteObjects: 0.345900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.368672 seconds.
+  path: Assets/Organic Variety/Scripts/OrganicFractal.cs
+  artifactKey: Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts/OrganicFractal.cs using Guid(bc498a2b3c77db44086b795898f48e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a361112ebc3a2350341f40d22da0c7') in 0.003834 seconds
+  Import took 0.007505 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3002.
+Total: 2.391600 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.125300 ms MarkObjects: 1.652500 ms  DeleteObjects: 0.333600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.852870 seconds.
+  path: Assets/URP/URP_Renderer.asset
+  artifactKey: Guid(d6d46d1ac6c1b034c865bd43103e6f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/URP_Renderer.asset using Guid(d6d46d1ac6c1b034c865bd43103e6f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4081dea91bbe47b29b0840a123d94290') in 0.012310 seconds
+  Import took 0.015686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/URP/URP_Renderer.asset
+  artifactKey: Guid(d6d46d1ac6c1b034c865bd43103e6f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/URP_Renderer.asset using Guid(d6d46d1ac6c1b034c865bd43103e6f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4081dea91bbe47b29b0840a123d94290') in 0.001784 seconds
+  Import took 0.004424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.034882 seconds.
+  path: Assets/URP/URP.asset
+  artifactKey: Guid(ba84bf113dc9d924bba58fe56f213b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/URP.asset using Guid(ba84bf113dc9d924bba58fe56f213b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064e7c691cd60f92ea41102a1e79bed2') in 0.001753 seconds
+  Import took 0.004744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030183 seconds.
+  path: Assets/URP/URP.asset
+  artifactKey: Guid(ba84bf113dc9d924bba58fe56f213b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/URP.asset using Guid(ba84bf113dc9d924bba58fe56f213b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064e7c691cd60f92ea41102a1e79bed2') in 0.001985 seconds
+  Import took 0.005072 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3006.
+Total: 2.390300 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.112000 ms MarkObjects: 1.624600 ms  DeleteObjects: 0.339300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.312885 seconds.
+  path: Assets/URP/URP.asset
+  artifactKey: Guid(ba84bf113dc9d924bba58fe56f213b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP/URP.asset using Guid(ba84bf113dc9d924bba58fe56f213b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215f6172fbfba773905f58aeb80f5bdb') in 0.010297 seconds
+  Import took 0.013220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.833835 seconds.
+  path: Assets/Organic Variety/Scripts
+  artifactKey: Guid(e5e3a3ae37185c44b839c32698610423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Scripts using Guid(e5e3a3ae37185c44b839c32698610423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba14b973f666250744d948a1532558a') in 0.001021 seconds
+  Import took 0.003961 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3009.
+Total: 2.474900 ms (FindLiveObjects: 0.259500 ms CreateObjectMapping: 0.104400 ms MarkObjects: 1.747900 ms  DeleteObjects: 0.362100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.697 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 2.513400 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.112400 ms MarkObjects: 1.785600 ms  DeleteObjects: 0.352500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3013.
+Total: 2.411600 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.131900 ms MarkObjects: 1.637300 ms  DeleteObjects: 0.345600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3015.
+Total: 2.321900 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.096600 ms MarkObjects: 1.660600 ms  DeleteObjects: 0.339700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3017.
+Total: 2.852500 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.176500 ms MarkObjects: 1.942300 ms  DeleteObjects: 0.357100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3019.
+Total: 2.373200 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.131000 ms MarkObjects: 1.607600 ms  DeleteObjects: 0.336600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3021.
+Total: 2.460900 ms (FindLiveObjects: 0.278300 ms CreateObjectMapping: 0.158500 ms MarkObjects: 1.672500 ms  DeleteObjects: 0.350400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 2.387500 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.090800 ms MarkObjects: 1.687300 ms  DeleteObjects: 0.338000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3025.
+Total: 3.091100 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.298000 ms  DeleteObjects: 0.345400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000817 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 7.003300 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.105600 ms MarkObjects: 6.253500 ms  DeleteObjects: 0.380200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 416.748389 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7c254839163ad4cca7c2b5eb669404') in 0.008549 seconds
+  Import took 0.011824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.909440 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caaf3169e8f8724defc8a46fb40e231') in 0.001313 seconds
+  Import took 0.004164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 384.301085 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8b6227bd1fb4d4196ed2fd17b9479e') in 0.003317 seconds
+  Import took 0.007019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.136339 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7b31ccaabcb79ba649a304b67c2c83') in 0.002229 seconds
+  Import took 0.005332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.881718 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f880d494a99c504bb9f408f7b28b8551') in 0.002033 seconds
+  Import took 0.005394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.655922 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0149e4ea0edc04cdf66bde6de774ee80') in 0.002471 seconds
+  Import took 0.005966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.039321 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d7864b8189237b834980f2ee2a059b') in 0.002307 seconds
+  Import took 0.005723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.524490 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62d32266a6d0429c479c92d375ceb2b') in 0.001546 seconds
+  Import took 0.004900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010802 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62d32266a6d0429c479c92d375ceb2b') in 0.001492 seconds
+  Import took 0.005089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.279292 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5407fe511fe7762c6464096aa77c667') in 0.001255 seconds
+  Import took 0.004266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.047209 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37104434a8dc4438b5beb250ed5fe652') in 0.001225 seconds
+  Import took 0.004208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.431415 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05499ceb9e62fba978faf83b90d18557') in 0.002156 seconds
+  Import took 0.005320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054062 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05499ceb9e62fba978faf83b90d18557') in 0.002116 seconds
+  Import took 0.005231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.222678 seconds.
+  path: Assets/Organic Variety/Materials/FractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/FractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea53cb278c76efb238fa8c415c411610') in 0.002027 seconds
+  Import took 0.005002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.507188 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32cc926cf70f35faba4c80c81a7cfc4') in 0.002081 seconds
+  Import took 0.005115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325697 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32cc926cf70f35faba4c80c81a7cfc4') in 0.002086 seconds
+  Import took 0.005320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.468696 seconds.
+  path: Assets/Organic Variety/Materials/OrganicFractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/OrganicFractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7e93f785d5974e51eadb2488c7104b') in 0.001347 seconds
+  Import took 0.004321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.830302 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a95360f14f5c0a0bb8e78526be8758') in 0.002299 seconds
+  Import took 0.005485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010930 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a95360f14f5c0a0bb8e78526be8758') in 0.002206 seconds
+  Import took 0.005367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.561059 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a637e396c350f16e8be2b153fc91a3bd') in 0.002231 seconds
+  Import took 0.005317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.632209 seconds.
+  path: Assets/Organic Variety/Materials/Fractal Surface GPU.shader
+  artifactKey: Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal Surface GPU.shader using Guid(d02da73dd7acbb54d84cf8385ccbb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecb4655286308c19750918896ebb107') in 0.002895 seconds
+  Import took 0.006196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.569889 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae5d97bc45afcbbd323882b55285c8c') in 0.002259 seconds
+  Import took 0.005378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109293 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae5d97bc45afcbbd323882b55285c8c') in 0.002143 seconds
+  Import took 0.005488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.038688 seconds.
+  path: Assets/Organic Variety/Materials/OrganicFractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/OrganicFractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd087b5288bf3a26c0887a0536a9cf4') in 0.001568 seconds
+  Import took 0.004609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011064 seconds.
+  path: Assets/Organic Variety/Materials/OrganicFractalGPU.hlsl
+  artifactKey: Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/OrganicFractalGPU.hlsl using Guid(57afb14a959951549b86965786cc03c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd087b5288bf3a26c0887a0536a9cf4') in 0.001472 seconds
+  Import took 0.004338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.026415 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f77d38dd9b6cc9d3f5f9ef3ebd02bf') in 0.002336 seconds
+  Import took 0.005464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.290732 seconds.
+  path: Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph
+  artifactKey: Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Organic Variety/Materials/Fractal URP GPU.shadergraph using Guid(cb5e8dd3947d5074bbddf5e227641f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e95293c50a8cc5e43e6547148455d2b') in 0.002419 seconds
+  Import took 0.005671 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
