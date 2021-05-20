@@ -6,6 +6,7 @@ using UnityEngine;
 
 using static Unity.Mathematics.math;
 using quaternion = Unity.Mathematics.quaternion;
+using Random = UnityEngine.Random;
 
 public class OrganicFractal : MonoBehaviour
 {
@@ -14,8 +15,8 @@ public class OrganicFractal : MonoBehaviour
 	struct UpdateFractalLevelJob : IJobFor
 	{
 
-		public float spinAngleDelta;
 		public float scale;
+		public float deltaTime;
 
 		[ReadOnly]
 		public NativeArray<FractalPart> parents;
@@ -29,13 +30,31 @@ public class OrganicFractal : MonoBehaviour
 		{
 			FractalPart parent = parents[i / 5];
 			FractalPart part = parts[i];
-			part.spinAngle += spinAngleDelta;
-			part.worldRotation = mul(parent.worldRotation,
+			part.spinAngle += part.spinVelocity * deltaTime;
+
+			float3 upAxis = mul(mul(parent.worldRotation, part.rotation), up());
+			float3 sagAxis = cross(up(), upAxis);
+
+			float sagMagnitude = length(sagAxis);
+			quaternion baseRotation;
+			if (sagMagnitude > 0f)
+			{
+				sagAxis /= sagMagnitude;
+				quaternion sagRotation =
+					quaternion.AxisAngle(sagAxis, part.maxSagAngle * sagMagnitude);
+				baseRotation = mul(sagRotation, parent.worldRotation);
+			}
+			else
+			{
+				baseRotation = parent.worldRotation;
+			}
+
+			part.worldRotation = mul(baseRotation,
 				mul(part.rotation, quaternion.RotateY(part.spinAngle))
 			);
 			part.worldPosition =
 				parent.worldPosition +
-				mul(parent.worldRotation, 1.5f * scale * part.direction);
+				mul(part.worldRotation, float3(0f, 1.5f * scale, 0f));
 			parts[i] = part;
 
 			float3x3 r = float3x3(part.worldRotation) * scale;
@@ -45,19 +64,16 @@ public class OrganicFractal : MonoBehaviour
 
 	struct FractalPart
 	{
-		public float3 direction, worldPosition;
+		public float3 worldPosition;
 		public quaternion rotation, worldRotation;
-		public float spinAngle;
+		public float maxSagAngle, spinAngle, spinVelocity;
 	}
 
 	static readonly int
-		baseColorId = Shader.PropertyToID("_BaseColor"),
-		matricesId = Shader.PropertyToID("_Matrices");
-
-
-	static float3[] directions = {
-		up(), right(), left(), forward(), back()
-	};
+		colorAId = Shader.PropertyToID("_ColorA"),
+		colorBId = Shader.PropertyToID("_ColorB"),
+		matricesId = Shader.PropertyToID("_Matrices"),
+		sequenceNumbersId = Shader.PropertyToID("_SequenceNumbers");
 
 	static quaternion[] rotations = {
 		quaternion.identity,
@@ -67,17 +83,29 @@ public class OrganicFractal : MonoBehaviour
 
 	static MaterialPropertyBlock propertyBlock;
 
-	[SerializeField, Range(2, 8)]
+	[SerializeField, Range(3, 8)]
 	int depth = 4;
 
 	[SerializeField]
-	Mesh mesh;
+	Mesh mesh, leafMesh;
 
 	[SerializeField]
 	Material material;
-	
+
 	[SerializeField]
-	Gradient gradient;
+	Gradient gradientA, gradientB;
+
+	[SerializeField]
+	Color leafColorA, leafColorB;
+
+	[SerializeField, Range(0f, 90f)]
+	float maxSagAngleA = 15f, maxSagAngleB = 25f;
+
+	[SerializeField, Range(0f, 90f)]
+	float spinSpeedA = 20f, spinSpeedB = 25f;
+
+	[SerializeField, Range(0f, 1f)]
+	float reverseSpinChance = 0.25f;
 
 	NativeArray<FractalPart>[] parts;
 
@@ -85,17 +113,22 @@ public class OrganicFractal : MonoBehaviour
 
 	ComputeBuffer[] matricesBuffers;
 
+	Vector4[] sequenceNumbers;
+
 	void OnEnable()
 	{
 		parts = new NativeArray<FractalPart>[depth];
 		matrices = new NativeArray<float3x4>[depth];
 		matricesBuffers = new ComputeBuffer[depth];
+		sequenceNumbers = new Vector4[depth];
 		int stride = 12 * 4;
 		for (int i = 0, length = 1; i < parts.Length; i++, length *= 5)
 		{
 			parts[i] = new NativeArray<FractalPart>(length, Allocator.Persistent);
 			matrices[i] = new NativeArray<float3x4>(length, Allocator.Persistent);
 			matricesBuffers[i] = new ComputeBuffer(length, stride);
+			sequenceNumbers[i] =
+				new Vector4(Random.value, Random.value, Random.value, Random.value);
 		}
 
 		parts[0][0] = CreatePart(0);
@@ -125,6 +158,7 @@ public class OrganicFractal : MonoBehaviour
 		parts = null;
 		matrices = null;
 		matricesBuffers = null;
+		sequenceNumbers = null;
 	}
 
 	void OnValidate()
@@ -138,15 +172,18 @@ public class OrganicFractal : MonoBehaviour
 
 	FractalPart CreatePart(int childIndex) => new FractalPart
 	{
-		direction = directions[childIndex],
-		rotation = rotations[childIndex]
+		maxSagAngle = radians(Random.Range(maxSagAngleA, maxSagAngleB)),
+		rotation = rotations[childIndex],
+		spinVelocity =
+			(Random.value < reverseSpinChance ? -1f : 1f) *
+			radians(Random.Range(spinSpeedA, spinSpeedB))
 	};
 
 	void Update()
 	{
-		float spinAngleDelta = 0.125f * PI * Time.deltaTime;
+		float deltaTime = Time.deltaTime;
 		FractalPart rootPart = parts[0][0];
-		rootPart.spinAngle += spinAngleDelta;
+		rootPart.spinAngle += rootPart.spinVelocity * deltaTime;
 		rootPart.worldRotation = mul(transform.rotation,
 			mul(rootPart.rotation, quaternion.RotateY(rootPart.spinAngle))
 		);
@@ -163,7 +200,7 @@ public class OrganicFractal : MonoBehaviour
 			scale *= 0.5f;
 			jobHandle = new UpdateFractalLevelJob
 			{
-				spinAngleDelta = spinAngleDelta,
+				deltaTime = deltaTime,
 				scale = scale,
 				parents = parts[li - 1],
 				parts = parts[li],
@@ -173,16 +210,32 @@ public class OrganicFractal : MonoBehaviour
 		jobHandle.Complete();
 
 		var bounds = new Bounds(rootPart.worldPosition, 3f * objectScale * Vector3.one);
+		int leafIndex = matricesBuffers.Length - 1;
 		for (int i = 0; i < matricesBuffers.Length; i++)
 		{
 			ComputeBuffer buffer = matricesBuffers[i];
-			propertyBlock.SetColor(
-				baseColorId, gradient.Evaluate(i / (matricesBuffers.Length - 1f))
-			);
 			buffer.SetData(matrices[i]);
-            propertyBlock.SetBuffer(matricesId, buffer);
+			Color colorA, colorB;
+			Mesh instanceMesh;
+			if (i == leafIndex)
+			{
+				colorA = leafColorA;
+				colorB = leafColorB;
+				instanceMesh = leafMesh;
+			}
+			else
+			{
+				float gradientInterpolator = i / (matricesBuffers.Length - 2f);
+				colorA = gradientA.Evaluate(gradientInterpolator);
+				colorB = gradientB.Evaluate(gradientInterpolator);
+				instanceMesh = mesh;
+			}
+			propertyBlock.SetColor(colorAId, colorA);
+			propertyBlock.SetColor(colorBId, colorB);
+			propertyBlock.SetBuffer(matricesId, buffer);
+			propertyBlock.SetVector(sequenceNumbersId, sequenceNumbers[i]);
 			Graphics.DrawMeshInstancedProcedural(
-				mesh, 0, material, bounds, buffer.count, propertyBlock
+				instanceMesh, 0, material, bounds, buffer.count, propertyBlock
 			);
 		}
 	}
