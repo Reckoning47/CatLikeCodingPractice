@@ -214,7 +214,7 @@ Transform:
   m_GameObject: {fileID: 396273940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3414, y: 1.3414, z: 1.3414}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -421,6 +421,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afa5b91a916691c4b8bd3123c774529d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxSpeed: 10
+  maxAcceleration: 10
+  allowedArea:
+    serializedVersion: 2
+    x: -5
+    y: -5
+    width: 10
+    height: 10
 --- !u!96 &1586748866
 TrailRenderer:
   serializedVersion: 2
@@ -606,7 +614,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048987588}
   m_LocalRotation: {x: -0.37769744, y: 0.0019350275, z: -0.0008081975, w: -0.9259267}
-  m_LocalPosition: {x: -0.54268813, y: 7.4526873, z: -8.320334}
+  m_LocalPosition: {x: 0.14, y: 7.14, z: -7.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
