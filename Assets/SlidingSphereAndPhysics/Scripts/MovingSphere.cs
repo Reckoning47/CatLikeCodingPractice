@@ -9,14 +9,7 @@ public class MovingSphere : MonoBehaviour
 
     [SerializeField, Range(0f, 100f)]
     float maxAcceleration = 10f;
-
-
-    //[SerializeField]
-    //Rect allowedArea = new Rect(-5f, -5f, 10f, 10f);
-
-    //[SerializeField, Range(0f, 1f)]
-    //float bounciness = 0.5f;
-
+    bool desiredJump;
     Vector3 velocity, desiredVelocity;
 
     Rigidbody body;
@@ -44,6 +37,8 @@ public class MovingSphere : MonoBehaviour
         desiredVelocity =
             new Vector3(playerInput.x, 0f, playerInput.y) * maxSpeed;
 
+
+        desiredJump |= Input.GetButtonDown("Jump");
     }
 
     private void FixedUpdate()
@@ -54,6 +49,20 @@ public class MovingSphere : MonoBehaviour
             Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
         velocity.z =
             Mathf.MoveTowards(velocity.z, desiredVelocity.z, maxSpeedChange);
+
+        if (desiredJump)
+        {
+            desiredJump = false;
+            Jump();
+        }
+
+
         body.velocity = velocity;
+    }
+
+
+    void Jump()
+    {
+        velocity.y += 5f;
     }
 }
