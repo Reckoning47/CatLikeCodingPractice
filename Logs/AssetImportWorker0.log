@@ -611,3 +611,25 @@ Received Import Request.
 Start importing Assets/SlidingSphere/Scripts/MovingSphere.cs using Guid(afa5b91a916691c4b8bd3123c774529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d76856867af95f010f90ef915cc47a') in 0.004207 seconds
   Import took 0.007908 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2441 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.7 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3070.
+Total: 2.386400 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.163600 ms MarkObjects: 1.911300 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
