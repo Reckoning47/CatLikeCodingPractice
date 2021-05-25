@@ -33,6 +33,7 @@ public class MovingSphere : MonoBehaviour
 
 	bool desiredJump;
 
+	Vector3 upAxis;
 	Vector3 contactNormal, steepNormal;
 
 	int groundContactCount, steepContactCount;
@@ -74,6 +75,7 @@ public class MovingSphere : MonoBehaviour
 
 	void FixedUpdate()
 	{
+		upAxis = -Physics.gravity.normalized;
 		UpdateState();
 		AdjustVelocity();
 
@@ -112,7 +114,7 @@ public class MovingSphere : MonoBehaviour
 		}
 		else
 		{
-			contactNormal = Vector3.up;
+			contactNormal = upAxis;
 		}
 	}
 
@@ -128,13 +130,15 @@ public class MovingSphere : MonoBehaviour
 			return false;
 		}
 		if (!Physics.Raycast(
-			body.position, Vector3.down, out RaycastHit hit,
+			body.position, -upAxis, out RaycastHit hit,
 			probeDistance, probeMask
 		))
 		{
 			return false;
 		}
-		if (hit.normal.y < GetMinDot(hit.collider.gameObject.layer))
+
+		float upDot = Vector3.Dot(upAxis, hit.normal);
+		if (upDot < GetMinDot(hit.collider.gameObject.layer))
 		{
 			return false;
 		}
@@ -154,7 +158,8 @@ public class MovingSphere : MonoBehaviour
 		if (steepContactCount > 1)
 		{
 			steepNormal.Normalize();
-			if (steepNormal.y >= minGroundDotProduct)
+			float upDot = Vector3.Dot(upAxis, steepNormal);
+			if (upDot >= minGroundDotProduct)
 			{
 				steepContactCount = 0;
 				groundContactCount = 1;
@@ -211,8 +216,8 @@ public class MovingSphere : MonoBehaviour
 
 		stepsSinceLastJump = 0;
 		jumpPhase += 1;
-		float jumpSpeed = Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
-		jumpDirection = (jumpDirection + Vector3.up).normalized;
+		float jumpSpeed = Mathf.Sqrt(2f * Physics.gravity.magnitude * jumpHeight);
+		jumpDirection = (jumpDirection + upAxis).normalized;
 		float alignedSpeed = Vector3.Dot(velocity, jumpDirection);
 		if (alignedSpeed > 0f)
 		{
@@ -237,12 +242,13 @@ public class MovingSphere : MonoBehaviour
 		for (int i = 0; i < collision.contactCount; i++)
 		{
 			Vector3 normal = collision.GetContact(i).normal;
-			if (normal.y >= minDot)
+			float upDot = Vector3.Dot(upAxis, normal);
+			if (upDot >= minDot)
 			{
 				groundContactCount += 1;
 				contactNormal += normal;
 			}
-			else if (normal.y > -0.01f)
+			else if (upDot > -0.01f)
 			{
 				steepContactCount += 1;
 				steepNormal += normal;
